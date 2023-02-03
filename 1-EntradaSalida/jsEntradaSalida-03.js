@@ -1,18 +1,10 @@
 /*
 Debemos lograr tomar un dato por 'ID'
 y luego mostrarlo por 'Alert' al presionar el botón  'mostrar'*/
-function mostrar()
+function mostrar ()
 {
-	var nombreIngresado;
+	var nombreIngresado = txtIdNombre.value;
 
-	// opcion 1
-	nombreIngresado=txtIdNombre.value;
-
-	//opcion 2
-	//nombreingreso = document.getElementById(txtIdNombre). value;
-
-	alert(nombreIngresado);
-
+	alert("Usted se llama " + nombreIngresado);
+	
 }
-
-
