@@ -1,6 +1,7 @@
 function mostrar()
 {
-	//Genero el número RANDOM entre 1 y 10 
-	alert("ok");	
+	
+	//alert(Math.random() * 10 + 1);	
+	alert(Math.random(0,10));
 
 }//FIN DE LA FUNCIÓN
